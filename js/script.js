@@ -34,7 +34,7 @@ function generarSerie() {
 
   console.log(serie.toString());
   const showSerie = document.querySelector(".show-serie");
-  showSerie.innerHTML = serie.toString();
+  showSerie.innerHTML = serie.reverse().toString();
 }
 
 buttonSerie.addEventListener("click", () => {
